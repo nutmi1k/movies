@@ -3,7 +3,7 @@ document.getElementById('myButton').onclick = function() {
 };
 
 const films = [
-    { name: "The Fast and the Furious", year: 30, rating: 5 },
+    { name: "The Fast and the Furious", year: 2001, rating: 5 },
     { name: "Scream", year: 1996, rating: 4 },
     { name: "Tommy Boy", year: 1995, rating: 5 }
 ];
