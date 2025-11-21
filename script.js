@@ -14,6 +14,6 @@ const tbody = document.getElementById('dataTable').getElementsByTagName('tbody')
 
 films.forEach(film => {
     const row = document.createElement('tr');
-    row.innerHTML = `<td>${film.name}</td><td>${film.year}</td><td>${film.rating}</td>`;
+    row.innerHTML = `<td>${film.name}</td><td>${film.director}</td><td>${film.year}</td><td>${film.rating}</td>`;
     tbody.appendChild(row);
 });
